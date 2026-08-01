@@ -1,1 +1,1 @@
-This is a collection of 3 end-to-end multi-step case studies I worked through using Databricks.
+This is a collection of production pipeline cases using Azure Databricks.
