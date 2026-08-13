@@ -46,3 +46,8 @@ def claims_validated():
 # MAGIC SELECT claim_id, _rescued_data
 # MAGIC FROM insurance_lab.silver.claims_rescued
 # MAGIC WHERE _rescued_data IS NOT NULL;
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC DROP CATALOG IF EXISTS insurance_lab CASCADE;
