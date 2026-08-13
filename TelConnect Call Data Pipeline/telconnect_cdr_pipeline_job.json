@@ -15,7 +15,7 @@
       "task_key": "process_cdrs",
       "run_if": "ALL_SUCCESS",
       "notebook_task": {
-        "notebook_path": "/Workspace/Users/shaumika@ajenatpharma.com/Azure/11-implement-lakeflow-jobs",
+        "notebook_path": "/Workspace/Users/shaumika@ajenatpharma.com/Azure/TelConnect Call Data Pipeline/11-implement-lakeflow-jobs",
         "source": "WORKSPACE"
       },
       "max_retries": 2,
