@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "config": {
+    "bundle": {
+      "name": "order-pipeline-bundle",
+      "target": "dev",
+      "mode": "development",
+      "git": {
+        "bundle_root_path": "."
+      }
+    },
+    "workspace": {
+      "file_path": "/Workspace/Users/shaumika@ajenatpharma.com/.bundle/order-pipeline-bundle/dev/files"
+    },
+    "resources": {
+      "jobs": {
+        "order-pipeline-job": {
+          "id": "1007990108432433",
+          "relative_path": "databricks.yml"
+        }
+      }
+    },
+    "presets": {
+      "source_linked_deployment": false
+    }
+  },
+  "extra": {}
+}

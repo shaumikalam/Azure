@@ -1,0 +1,1 @@
+{"version":1,"seq":1,"cli_version":"1.12.1","timestamp":"2026-08-14T18:13:41.2718162Z","files":[{"local_path":"databricks.yml","is_notebook":false},{"local_path":"notebooks/transform.py","is_notebook":true},{"local_path":"notebooks/validate.py","is_notebook":true}],"id":"ba36ef38-3465-4918-ac52-422c26dd62b0"}

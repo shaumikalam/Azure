@@ -1,0 +1,46 @@
+{
+ "state_version": 2,
+ "cli_version": "1.12.1",
+ "lineage": "b489c629-a977-4589-b079-7a1384415af9",
+ "serial": 1,
+ "state": {
+  "resources.jobs.order-pipeline-job": {
+   "__id__": "1007990108432433",
+   "state": {
+    "deployment": {
+     "kind": "BUNDLE",
+     "metadata_file_path": "/Workspace/Users/shaumika@ajenatpharma.com/.bundle/order-pipeline-bundle/dev/state/metadata.json"
+    },
+    "edit_mode": "UI_LOCKED",
+    "format": "MULTI_TASK",
+    "max_concurrent_runs": 4,
+    "name": "[dev shaumika] development-order-pipeline",
+    "queue": {
+     "enabled": true
+    },
+    "tags": {
+     "dev": "shaumika"
+    },
+    "tasks": [
+     {
+      "depends_on": [
+       {
+        "task_key": "validate-data"
+       }
+      ],
+      "notebook_task": {
+       "notebook_path": "/Workspace/Users/shaumika@ajenatpharma.com/.bundle/order-pipeline-bundle/dev/files/notebooks/transform"
+      },
+      "task_key": "transform-data"
+     },
+     {
+      "notebook_task": {
+       "notebook_path": "/Workspace/Users/shaumika@ajenatpharma.com/.bundle/order-pipeline-bundle/dev/files/notebooks/validate"
+      },
+      "task_key": "validate-data"
+     }
+    ]
+   }
+  }
+ }
+}
